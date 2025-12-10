@@ -1,7 +1,7 @@
 {
   "name": "greenballot-frontend",
   "version": "1.0.0",
-  "description": "GreenBallot - A comprehensive voting system dApp",
+  "description": "GreenBallot - A comprehensive Web3 voting system dApp",
   "private": true,
   "scripts": {
     "dev": "next dev",
