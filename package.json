@@ -1,5 +1,10 @@
 {
-  "name": "hardhat-project",
+  "name": "greenballot",
+  "description": "A comprehensive voting system smart contract",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "hardhat": "^2.27.1"

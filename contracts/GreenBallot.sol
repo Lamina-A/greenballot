@@ -435,7 +435,10 @@ contract GreenBallot {
 
     /**
      * @dev Get system statistics
-     * @return totalCandidates, totalRegisteredVoters, totalVotes, systemActive
+     * @return totalCandidates Total number of registered candidates
+     * @return totalRegisteredVoters Total number of registered voters
+     * @return totalVotes Total votes cast across all candidates
+     * @return isSystemActive Current state of the voting system
      */
     function getSystemStats()
         public
